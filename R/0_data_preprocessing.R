@@ -67,7 +67,6 @@ gene_filter_paper_sc3 <- function(data){
     data_neu[[i]] <- data[[i]][-(remove_gene), ]
   }
   data_neu
-  #saveRDS(data_neu, "tmp/data_diverse_gene_filter/data_filter_paper.Rds")
 }
 data_filter_paper <- gene_filter_paper_sc3(data_list_sc3_ok)
 
